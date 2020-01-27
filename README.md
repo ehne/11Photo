@@ -1,5 +1,5 @@
 <p>
-  <img alt="logo" src"11photo\ logo.png" />
+  <img alt="logo" src="11photo-logo.png" align="center"/>
 </p>
 <h1 align="center">
   Welcome to 11Photo 👋
