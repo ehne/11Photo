@@ -16,10 +16,11 @@
 ## Getting Started
 *   clone the repo.
 *   copy the `template` folder, and rename it.
-*   inside of the new folder, find the file `template.json`, rename it to the same name as your folder.
-*   chuck all your photos into the `photos` foler
+*   chuck all your photos into the `photos` folder. nb: the image `hero.jpg` is by default, the hero image used on the site (this can be edited in the json file)
+*   from inside the folder, run the `generator.py` script. this will generate the json data file.
+*   open the json file, and edit the data to be what you want. ie. the captions of images, and title of the essay.
 *   run `npx tailwindcss build src.css -o dist.css` to generate the css.
-*   after you've done all that, run `npx @11ty/eleventy`
+*   after you've done all that, run `npx @11ty/eleventy` to generate the essay into the `_site` directory.
 ## Changing the colours:
 changing colours can be done by altering the variables in the `tailwind.config file`. and then running `npx tailwindcss build src.css -o dist.css`.
 At the moment there is no way to change the colours specifically for one essay.

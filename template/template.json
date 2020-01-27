@@ -1,18 +1,19 @@
 {
-    "hero":"photos/people.jpg",
-    "comment":"The focus point of the hero image should be near the middle. otherwise it may be cropped off on different screen sizes.",
-    "title":"Whatever the title of this essay is.",
-    "brand":{
-        "logo":"the 2020 daily recap",
-        "href":"https://2020.darcylf.me"
+    "hero": "photos/hero.jpg",
+    "title": "Whatever the title of this essay is.",
+    "fontType": "serif",
+    "brand": {
+        "logo": "the 2020 daily recap",
+        "href": "https://2020.darcylf.me"
     },
-    "fontType":"serif",
-    "comment":"fontType can be 'serif' or 'sans'",
-    "photos":[
+    "photos": [
         {
-            
-            "imageURL":"photos/people.jpg",
-            "caption":"16x9 is the reccomended aspect ratio for images. But, all aspect ratios should look good on desktop, although they may look slighty odd on mobile."
+            "imageURL": "photos/people.jpg",
+            "caption": "edit me"
+        },
+        {
+            "imageURL": "photos/hero.jpg",
+            "caption": "edit me"
         }
     ]
 }
