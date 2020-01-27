@@ -31,7 +31,7 @@ html(lang="en")
                             img(src=photo.imageURL, class="order-last lg:h-full h-auto w-full object-contain object-left")
                         div(class="text-caption lg:mt-0 mt-2 order-first lg:w-1/5 w-auto flex-none lg:pl-0 px-4 lg:border-r border-0 border-gray-900")
                             div=photo.caption
-                            div 
+                            div.mt-4
                                 button(onclick=`shareThis('#${index}')`, class="underline hover:text-text") share this
 
 
