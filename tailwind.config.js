@@ -1,11 +1,14 @@
 module.exports = {
   theme: {
     extend: {
+      fontFamily: {
+        display: ['Cabin', 'sans-serif'],
+      },
       colors: {
         backdrop:'#121212',
         text: "#fff",
         caption:"#dcdcdc",
-        accent:"#FFBFD5"
+        accent:"#ffc53f"
       },
       height: {
         '2/3': '66%',

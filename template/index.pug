@@ -33,6 +33,13 @@ html(lang="en")
                             div=photo.caption
                             div.mt-4
                                 button(onclick=`shareThis('#${index}')`, class="underline hover:text-text") share this
+                div(class="mb-2 border-b border-gray-900 pb-6 lg:flex block lg:px-12 px-0", id=index)
+                    div(class="lg:max-h-66vh max-h-auto lg:pl-4 pl-0")
+                        img(src="photos/11photo-logo.png", class="order-last lg:h-full h-auto w-full object-contain object-left")
+                    div(class="text-caption lg:mt-0 mt-2 order-first lg:w-1/5 w-auto flex-none lg:pl-0 px-4 lg:border-r border-0 border-gray-900")
+                        div So, what are you waiting for?
+                        div.mt-4
+                            a(class="underline hover:text-text" href="https://github.com/ehne/11Photo") get started now!
 
 
                             

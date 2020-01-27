@@ -6,4 +6,10 @@ module.exports = function(eleventyConfig) {
         "jpg" // css is not yet a recognized template extension in Eleventy
       ]);
     eleventyConfig.addPassthroughCopy("./dist.css");
+
+    return {
+      dir: {
+        output: "docs"
+      }
+    };
   };

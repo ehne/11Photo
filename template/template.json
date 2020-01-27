@@ -1,19 +1,23 @@
 {
-    "hero": "photos/hero.jpg",
-    "title": "Whatever the title of this essay is.",
-    "fontType": "serif",
+    "hero": "photos/people.jpg",
+    "title": "11Photo: A static site generator for photo essays",
+    "fontType": "display",
     "brand": {
-        "logo": "the 2020 daily recap",
-        "href": "https://2020.darcylf.me"
+        "logo": "Darcy Lugt-Falk",
+        "href": "https://darcylf.me"
     },
     "photos": [
         {
-            "imageURL": "photos/people.jpg",
-            "caption": "edit me"
+            "imageURL": "photos/bridge.jpg",
+            "caption": "11Photo uses the incredibly powerful static site generation engine, 11ty."
         },
         {
             "imageURL": "photos/hero.jpg",
-            "caption": "edit me"
+            "caption": "Using 11Photo was designed to be as simple as possible, whilst still allowing for loads of customisation."
+        },
+        {
+            "imageURL": "photos/people.jpg",
+            "caption":"11Photo uses Tailwind for all of it's styles, so changing the background colour is as simple as changing one line of code. "
         }
     ]
 }
