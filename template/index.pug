@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title= title
+        link(rel="stylesheet", href="/dist.css")
+        script
+            | function shareThis(link){
+            | const shareOpts = {
+            |   title: '#{title}',
+            |   text: 'Check out this great photo.',
+            |   url: link,
+            | }
+            | navigator.share(shareOpts)
+            | }
+            
+    body.bg-backdrop.text-text.text-md
+        div(class="font-"+fontType)
+            div.w-screen.mb-4
+                div(class="absolute top-0 left-0 right-0 text-2xl font-black bg-backdrop px-2 py-1")
+                    a(href=brand.href, class="hover:text-accent")=brand.logo
+                img(src=hero, alt="" class="w-screen h-screen object-cover")
+                div(class="absolute bottom-0 left-0 lg:text-4xl text-3xl font-black bg-backdrop px-2 pb-2 max-w-2xl border-b border-gray-900")=title
+            
+            div(class="mx-auto")
+                each photo,index in photos
+                    div(class="mb-2 border-b border-gray-900 pb-6 lg:flex block lg:px-12 px-0", id=index)
+                        div(class="lg:max-h-66vh max-h-auto lg:pl-4 pl-0")
+                            img(src=photo.imageURL, class="order-last lg:h-full h-auto w-full object-contain object-left")
+                        div(class="text-caption lg:mt-0 mt-2 order-first lg:w-1/5 w-auto flex-none lg:pl-0 px-4 lg:border-r border-0 border-gray-900")
+                            div=photo.caption
+                            div 
+                                button(onclick=`shareThis('#${index}')`, class="underline hover:text-text") share this
+
+
+                            
+                        
+
+            
+            
