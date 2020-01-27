@@ -9,7 +9,7 @@
 > A photo essay generator using 11ty, pug and tailwind
 
 ## Getting Started
-*   run `npx degit ehne/11photo 11photo` to download the repo into the folder `11photo`
+*   clone the repo.
 *   copy the `template` folder, and rename it.
 *   inside of the new folder, find the file `template.json`, rename it to the same name as your folder.
 *   chuck all your photos into the `photos` foler
