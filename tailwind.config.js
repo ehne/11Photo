@@ -5,7 +5,8 @@ module.exports = {
         backdrop:'#121212',
         text: "#fff",
         caption:"#dcdcdc",
-        accent:"#FFBFD5"
+        accent:"#FFBFD5",
+        border:"#ffffff10"
       },
       height: {
         '2/3': '66%',
